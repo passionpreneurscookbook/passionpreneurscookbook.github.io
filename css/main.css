@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
 body{
 overflow-x: hidden;
 }
@@ -8,27 +10,41 @@ overflow-x: hidden;
   width:100%;
 }
 #abt{
-background-color:white;
-padding:12% 0 10% 0;
-width:100%;
-}
-#author{
-  padding:15% 2% 15% 2%;
+  background-color:white;
+  padding:12% 0 10% 0;
   width:100%;
-  background-image:url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11150502_953011474732985_5401340619679835511_n.jpg?oh=fe59d766aec8dbdd1a9556e97f1282c4&oe=592CB774");
-      background-size: cover;
 
 }
-#contact{
-  background-color:white;
-  padding:10% 0 0 0;
+#author{
+  padding:10% 2% 10% 2%;
   width:100%;
+  background-image:url("../images/canvas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#contact{
+  background-image:url("../images/wood.jpg");
+  background-size: cover;
+  padding:5% 0 0 0;
+  width:100%;
+}
+#author:focus{
+  margin-left: 50%;
+  margin-right: 50%;
 }
 li:hover{
   background-color:#8D8B8A;
 }
-#img{
+#img {
   width:100%;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 #col2{
   padding: 5% 5% 1% 2%;
@@ -47,34 +63,54 @@ li:hover{
 #but{
   padding:1% 10% 1% 10%;
   text-align:center;
-  border-color:yellow;
+  border-color:red;
   border-width:3px;
 }
 #but:hover{
-  background-color:#57F17F;
-    border-color:#57F17F;
-
+  background-color:red;
+  border-color:red;
 }
-
 #about-p{
   text-align:center;
-  background-color:black;
-  color:white;
+  color:black;
   font-size:14px;
   font-family:  Merriweather,monospace;
   width:60%;
-  margin:-4% 0 0 40%;
-  padding:4% 2% 2% 2%;
-  opacity:0.7;
+  padding:2% 10% 2% 10%;
+  margin:0 20% 0 20%;
+}
+#about-p img{
+  border-radius:50%;
+  text-align: center;
+  width: 40%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#about-p img:hover{
+  -webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
 #contact_header{
   text-align:center;
-  font-family:  Merriweather,monospace;
-font-size:25px;
+  font-family: 'Diplomata SC', cursive;
+  font-size:40px;
+  color:blue;
+}
+#contact_header:hover
+{
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
 }
 #contact_body{
   padding:5%;
-    text-align:center;
-    font-family:  Merriweather,monospace;
-font-size:16px;
+  text-align:center;
+  font-family:  Merriweather,monospace;
+  font-size:16px;
+}
+#span1{
+  color:red;
+  font-size: 25px;
 }
