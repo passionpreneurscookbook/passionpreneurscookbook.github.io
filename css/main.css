@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+body{
+overflow-x: hidden;
+}
+#navbar{
+  z-index:1;
+  position:fixed;
+  width:100%;
+}
+#abt{
+background-color:white;
+padding:12% 0 10% 0;
+width:100%;
+}
+#author{
+  padding:15% 2% 15% 2%;
+  width:100%;
+  background-image:url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11150502_953011474732985_5401340619679835511_n.jpg?oh=fe59d766aec8dbdd1a9556e97f1282c4&oe=592CB774");
+      background-size: cover;
+
+}
+#contact{
+  background-color:white;
+  padding:10% 0 0 0;
+  width:100%;
+}
+li:hover{
+  background-color:#8D8B8A;
+}
+#img{
+  width:100%;
+}
+#col2{
+  padding: 5% 5% 1% 2%;
+}
+#desc{
+  color:black;
+  font-size:20px;
+  font-family:  Merriweather,monospace;
+  text-align:center;
+  padding:0 2% 0 2%;
+}
+#book-row{
+  padding:8% 0 0 0;
+  text-align:center;
+}
+#but{
+  padding:1% 10% 1% 10%;
+  text-align:center;
+  border-color:yellow;
+  border-width:3px;
+}
+#but:hover{
+  background-color:#57F17F;
+    border-color:#57F17F;
+
+}
+
+#about-p{
+  text-align:center;
+  background-color:black;
+  color:white;
+  font-size:14px;
+  font-family:  Merriweather,monospace;
+  width:60%;
+  margin:-4% 0 0 40%;
+  padding:4% 2% 2% 2%;
+  opacity:0.7;
+}
+#contact_header{
+  text-align:center;
+  font-family:  Merriweather,monospace;
+font-size:25px;
+}
+#contact_body{
+  padding:5%;
+    text-align:center;
+    font-family:  Merriweather,monospace;
+font-size:16px;
+}
