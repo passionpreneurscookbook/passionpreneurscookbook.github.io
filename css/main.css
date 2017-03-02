@@ -11,7 +11,7 @@ overflow-x: hidden;
 }
 #abt{
   background-color:white;
-  padding:12% 0 10% 0;
+  padding:8% 0 10% 0;
   width:100%;
 
 }
@@ -25,8 +25,10 @@ overflow-x: hidden;
 #contact{
   background-image:url("../images/wood.jpg");
   background-size: cover;
-  padding:5% 0 0 0;
+  padding:10% 2% 10% 2%;
   width:100%;
+  background-position: center;
+
 }
 #author:focus{
   margin-left: 50%;
@@ -36,7 +38,9 @@ li:hover{
   background-color:#8D8B8A;
 }
 #img {
-  width:100%;
+  width:60%;
+  margin: 0 1% 1% 20%;
+
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -47,7 +51,8 @@ li:hover{
 	transform: scale(1.2);
 }
 #col2{
-  padding: 5% 5% 1% 2%;
+  padding: 8% 5% 1% 2%;
+
 }
 #desc{
   color:black;
