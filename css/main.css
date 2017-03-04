@@ -68,12 +68,12 @@ li:hover{
 #but{
   padding:1% 10% 1% 10%;
   text-align:center;
-  border-color:red;
+  border-color:#AB103D;
   border-width:3px;
 }
 #but:hover{
-  background-color:red;
-  border-color:red;
+  background-color:#56DAE3;
+  border-color:#56DAE3;
 }
 #about-p{
   text-align:center;
@@ -122,5 +122,11 @@ li:hover{
 #span2{
   color:blue;
   font-size: 25px;
-
+}
+#foot{
+  text-align: center;
+  padding:2%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
 }
