@@ -15,7 +15,8 @@ overflow-x: hidden;
 }
 .nav a{
     color: white !important;
-    font-size: 1.2em !important;
+    font-size: 1.0em !important;
+    font-family: Merriweather,monospace !important;
     }
 #abt h1{
     font-family:  serif;
@@ -37,15 +38,20 @@ overflow-x: hidden;
   background-color:white;
 }
 #contact{
-  padding:10% 2% 10% 2%;
   width:100%;
   background-position: center;
+  padding:3%;
 
 }
 #company{
-  padding:10% 2% 10% 2%;
+  padding:5% 8% 10% 8%;
   width:100%;
   background-color:#ECF769;
+  text-align:center;
+  color:black;
+  font-size:14px;
+  font-family:  Merriweather,monospace;
+  width:100%;
 }
 #author:focus{
   margin-left: 50%;
@@ -92,8 +98,8 @@ li:hover{
   font-size:14px;
   font-family:  Merriweather,monospace;
   width:60%;
-  padding:2% 10% 2% 10%;
-  margin:0 20% 0 20%;
+  padding:0 10% 2% 10%;
+  margin:-5% 20% 0 20%;
 }
 #about-p img{
   border-radius:50%;
@@ -116,7 +122,6 @@ li:hover{
 }
 
 #contact_body{
-  padding:5%;
   text-align:center;
   font-family:  Merriweather,monospace;
   font-size:16px;
