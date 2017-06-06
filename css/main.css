@@ -25,11 +25,9 @@ overflow-x: hidden;
     margin-top:5%;
 }
 #abt{
-  background-color:white;
+  background-color:#81E885;
   padding:8% 0 10% 0;
   width:100%;
-  background-image:url("../images/light.jpg");
-  background-size: cover;
   opacity: 0.9;
 }
 #author{
