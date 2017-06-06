@@ -9,8 +9,8 @@ overflow-x: hidden;
   z-index:1;
   position:fixed;
   width:100%;
-  background-color:black;
-  border-color: black;
+  background-color:#467648;
+  border-color: #467648;
   color: black;
 }
 .nav a{
