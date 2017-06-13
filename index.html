@@ -1,34 +1,17 @@
 <head>
-  <title>BOVLABS INC</title>
+  <title>BOVLABS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">		</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
-    <script type="text/javascript">
-    $('.cube-switch .switch').click(function() {
-    if ($('.cube-switch').hasClass('active')) {
-        $('.cube-switch').removeClass('active');
-        $('#light-bulb2').css({'opacity': '0'});
-      $('.line').removeClass('active');
-    } else {
-        $('.cube-switch').addClass('active');
-                  $('.line').addClass('active');
-      $('#light-bulb2').delay(800)
-  .queue(function (next) {
-    $(this).css('opacity', '1');
-    next();
-  });
-
-
-
-    }
-});
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+  <script type="text/javascript">
+  require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"58d2d218822f5f7642bc2c122","lid":"536cb39ff8"}) })
   </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
 
 </head>
 <body>
@@ -40,98 +23,88 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Smiley face" height="35" width="40">
-          </a>
+          <a class="navbar-brand" href="#">LOGO</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav navbar-right">
-             <li><a href="#abt" style="color:black;font-family: 'Anton', sans-serif;">Home</a></li>
-             <li><a href="#author" style="color:black;font-family: 'Anton', sans-serif;">Case Study</a></li>
-             <li><a href="#company" style="color:black;font-family: 'Anton', sans-serif;">About Us</a></li>
-             <li><a href="#contact" style="color:black;font-family: 'Anton', sans-serif;">Contact</a></li>
+             <li><a href="#abt">Solution</a></li>
+             <li><a href="#author">About Us</a></li>
+             <li><a href="#contact">Contact</a></li>
            </ul>
         </div>
       </div>
     </nav>
-    <div id="abt" class="container" >
+    <div id="home" class="container">
+      <div class="row" style="text-align:center;padding-bottom:40%;">
+      </div>
+    </div>
+    <div class="row" style="padding-top:20%;padding-bottom:20%;text-align:center;">
+      <h1 style="color:black;">Empowering communities </br>using blockchain</h1>
+    </div>
+    <div id="abt" class="container">
+      <h1 style="color:black;text-align:center;padding-bottom:2%;padding-top:-4%">OUR SOLUTION</h1>
       <div class="row">
-
-<div class="sq">
-    <div class="tl"></div>
-  <div id="light-bulb" class="off ui-draggable" ><div id="light-bulb2" style="opacity: 0; "></div></div>
-</div>
-  <div class="line"></div>
-<div class="sq1">
-    <div class="tl2"></div>
-  <div id="light-bulb1" class="off ui-draggable" ><div id="light-bulb3" style="opacity: 0; "></div></div>
-</div>
-<div href="" class="cube-switch">
-        <span class="switch">
-            <span class="switch-state off">Stop</span>
-            <span class="switch-state on">Share</span>
-        </span>
-   </div></div></br></br>
- <div class="row">
-        <div id="col1" class="col-md-12" style="text-align:center;">
-          <h1>Empowering communities using blockchain</h1>
+        <div id="col1" class="col-md-6">
+          <img src="images/hut1.png" id="img">
         </div>
-
+        <div id="col2" class="col-md-6">
+          <p id="desc"> Empower a self reliant community through solar power distributed via micro grids.</br></br>
+            Using block chain technology to have a reliable transfer of energy through a distributed peer to peer framework</br></br>
+            The IEA says 70% of the rural areas that currently lack access will need to be connected using micro-grids</br></br>
+            Technology is scalable and once we develop a prototype we can pretty much replicate in other places </br></br>
+          </p>
+        </div>
+      </div>
+      <div class="row" id="book-row">
+         <div class="col-md-12">
+           <a href=""><button id="but" type="button"  class="btn btn-default btn-lg">
+             <span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;Read case study
+              </button></a>
+         </div>
       </div>
     </div>
     <div id="author" class="container">
       <div id="about-p">
-                <h1>CASE STUDY </h1>
-        </br></br>
-        <p>CASE STUDY DETAILS HERE/p>
-        </br></br>
-
-
-
-
-
+        <h1>OUR TEAM </h1>
+      </br></br>
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-2">
+          <img src="images/emp.jpg"/>
+          <p>CEO</p>
+        </div>
+        <div class="col-md-2">
+          <img src="images/emp.jpg"/>
+          <p>CFO</p>
+        </div>
+        <div class="col-md-2">
+          <img src="images/emp.jpg"/>
+          <p>CTO</p>
+        </div>
+        <div class="col-md-2">
+          <img src="images/emp.jpg"/>
+          <p>COO</p>
+        </div>
+        <div class="col-md-2">
+        </div>
       </div>
-    </div>
-    <div id="company" class="container">
-        <h1>ABOUT US</h1>
-        </br></br>
-        <p style="line-height: 1.6em;font-size:1.4em;text-align:center;">Bovlabs Inc. is focussed to build self reliant community for power, using solar energy which could be traded peer to peer on a
-        distributed system using Blockchain.</p>
-        </br></br>
-        <h3>OUR TEAM</h3>
-        <p>Add photo/description</p>
-        </br></br>
+      </br></br>
+      </div>
     </div>
     <div id="contact" class="container">
       <div id="contact_header">
         <h1>CONTACT</h1>
       </div>
       <div id="contact_body">
-        <p>Let us know how we can help you better.</p>
+        <p>For feedback, suggestions and book review, please contact Ruby</p>
         </br></br>
-            <div class="row">
-              <div class="col-md-6">
-              </br>
-                <h3>Follow us on Social Media</h3>
-                <div id="social"><a class="facebookBtn smGlobalBtn" href="#" ></a>
-                			<a class="twitterBtn smGlobalBtn" href="#" ></a>
-                			<a class="googleplusBtn smGlobalBtn" href="#" ></a>
-                			<a class="linkedinBtn smGlobalBtn" href="#" ></a>
-                			<a class="tumblrBtn smGlobalBtn" href="#" ></a>
-                		</div>
-              </div>
-              <div class="col-md-6" >
-                </br>
-              <h3>Contact Address</h3>
-                <h5 style="line-height: 1.4em;">Bovlabs Inc.</br>Cryptovalley</br>Zug</br>Switzerland</br></br>
-<span class="glyphicon glyphicon-earphone"></span> 787878787</br></br>
-<span class="glyphicon glyphicon-envelope"></span> jk.pillai@bovlabs.com</br>
-                </h5>
-
-              </div>
-            </div></br>
+<p><span class="glyphicon glyphicon-send" aria-hidden="true"></span><a href="mailto:rubyshiv@gmail.com?Subject=From%20cookbooksite"> Click here to send mail</a> or drop a mail at rubyshiv(at)gmail(dot)com</p>
+ </br></br>
+<p><span class="glyphicon glyphicon-heart-empty"></span> <a target="_blank"  href="https://twitter.com/rubyshiv">Connect on Twitter</a></p>
       </div>
     </div>
     <footer id="foot">
-      <p>Copyright © 2017, Bovlabs Inc</p>
+      <a href="http://amzn.to/2nnXODn">Purchase book today!</a>
     </footer>
 </body>
